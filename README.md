@@ -93,16 +93,8 @@ Email: lluckylithin@gmail.com
 GitHub: https://github.com/L172004D
 
 ````
-
----
-
-### ✅ **Tips for a polished GitHub repo**
-1. Add the **PDF and DOCX report files** in the repo root.  
-2. Use the cleaned folder structure (`frontend/`, `backend/`, `README.md`, `requirements.txt`).  
-3. Consider adding **screenshots of the GUI** in a `screenshots/` folder and embedding them in README using:  
-
-```markdown
-![Chat GUI](screenshots/chat_gui.png)
+## Screenshot 
+**[Chat GUI](screenshots/chat_gui.png)**
 ````
 
 <img width="558" height="339" alt="image" src="https://github.com/user-attachments/assets/bcd7778e-f0a4-43d0-aac9-e1e782df7a3b" />
