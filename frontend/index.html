@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🔒 Secure Chat - E2EE</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.js"></script>
+</head>
+<body>
+  <div class="chat-container">
+    <h1>🔒 Secure Chat (E2EE)</h1>
+    <div id="login-screen">
+      <input type="text" id="username" placeholder="Enter your name..." />
+      <button onclick="joinChat()">Join Chat</button>
+    </div>
+
+    <div id="chat-screen" class="hidden">
+      <div id="messages"></div>
+      <div class="input-row">
+        <input type="text" id="message" placeholder="Type your message..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
